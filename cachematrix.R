@@ -1,11 +1,11 @@
 ## First function (makeCacheMatrix) creates a matrix object. Second function 
-## (cacheSolve) calculates the invers of a matrix and updates the matrix object.
+## (cacheSolve) calculates the inverse of a matrix and updates the matrix object.
 
 ## The makeCacheMatrix contains the following functions:
 ## set - Sets the value of the matrix
 ## get - Gets the value of the matrix
-## setinv - Sets the value of the matrix invers
-## getinv - Gets the value of the matrix invers
+## setinv - Sets the value of the matrix inverse
+## getinv - Gets the value of the matrix inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     
@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## If the matrix invers is calculated return the value. If not calculate and return 
+## If the matrix inverse is calculated return the value. If not calculate and return 
 ## the matrix inverse and update the matrix object.
 
 cacheSolve <- function(x, ...) {
